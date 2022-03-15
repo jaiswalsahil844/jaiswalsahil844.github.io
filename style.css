@@ -1,6 +1,6 @@
 body{
 
-    background-color: rgb(253, 253, 253);
+    background-color: rgb(149, 216, 243);
 
     padding-left: 20px;    
 }
@@ -18,12 +18,12 @@ body{
     align-content: center;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    background-color:  rgb(253, 253, 253);
+    background-color:  rgb(149, 216, 243);
     padding: 10px;
   }
   
   .grid-container >  div {
-    background-color:  rgb(253, 253, 253);
+    background-color:  rgb(149, 216, 243);
     text-align: center;
     padding: 10px 0;
     font-size: 17px;
@@ -35,7 +35,7 @@ body{
     align-content: center;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    background-color: rgb(217, 247, 247);;
+    background-color: rgb(149, 216, 243);
     padding: 10px;
   }
 
@@ -49,17 +49,23 @@ body{
 
 
   .social-link{
-    padding-left: 5px;
+    font-size: larger;
+    padding-left: 1px;
     display: flex;  
     list-style: none;
      
     
   }
 
-  .social{
-    margin: 7px;
+.social > a{
+   color: rgb(4, 4, 212);
+    margin: 10px;
+    text-decoration: none;
+    
      
-
   }
+  .connection{
 
+    font-size: 20px;
+  }
    

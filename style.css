@@ -1,11 +1,29 @@
 body{
 
-    background-color: rgb(149, 216, 243);
+    background-color: rgb(215, 223, 248);
 
     padding-left: 20px;    
 }
 
+.resume{
+  color: rgb(59, 18, 243);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: serif;
+  text-decoration: none;
+}
+
+h1{
+  font-weight: bold;
+  font-style: normal;
+}
+ 
+p{
+
+  font-size: 18px;
+}
 .name{
+  font-family: serif;
   padding-right: 20%;
   text-align: center; 
 }
@@ -18,12 +36,12 @@ body{
     align-content: center;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    background-color:  rgb(149, 216, 243);
+    background-color:  rgb(215, 223, 248);
     padding: 10px;
   }
   
   .grid-container >  div {
-    background-color:  rgb(149, 216, 243);
+    background-color:  rgb(215, 223, 248);
     text-align: center;
     padding: 10px 0;
     font-size: 17px;
@@ -35,12 +53,12 @@ body{
     align-content: center;
     grid-template-columns: auto auto auto auto;
     gap: 5px;
-    background-color: rgb(149, 216, 243);
+    background-color: rgb(215, 223, 248);
     padding: 10px;
   }
 
   .grid-container1 > div {
-    background-color: rgb(217, 247, 247);;
+    background-color: rgb(215, 223, 248);
     text-align: center;
     padding: 10px 0;
     font-size: 17px;
@@ -58,14 +76,12 @@ body{
   }
 
 .social > a{
-   color: rgb(4, 4, 212);
-    margin: 10px;
+    color: rgb(4, 4, 212);
+    margin: 15px;
+    font-size: 25px;
     text-decoration: none;
     
      
   }
-  .connection{
-
-    font-size: 20px;
-  }
+   
    
